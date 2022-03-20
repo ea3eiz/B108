@@ -18,10 +18,10 @@ fi
 # path usuario
 usuario="/home/pi"
 usuario="$usuario"
-SCRIPTS_version="B108"
+SCRIPTS_version="A108"
 actualizacion=$(awk "NR==1" /home/pi/.config/autostart/actualizacion)
 
-version="B108-"
+version="A108-"
 version=$version$actualizacion
 
 #pone todos los status de inicio en OFF
@@ -49,12 +49,6 @@ sed -i "19c DMRGateway=OFF" $usuario/status.ini
 cd $usuario/$SCRIPTS_version
 git pull
 sleep 2
-
-
-#19-03-2022
-
-mv /home/pi/B108 /home/pi/
-
 
 #Actualiza todos los iconos y Quita todos los iconos verdes que se quedan al cerrar la imagen
 sudo cp $usuario/Desktop/Activar_dvswitch.desktop $usuario/.local #deja el icono en el estado que se reinició
@@ -285,9 +279,9 @@ rm $usuario/RXF_DMRGATEWAY.desktop
 sudo chmod 777 -R $usuario/Desktop
 sleep 2
 
-sudo rm -R /home/pi/B108/associacioader.com
-sudo rm -R /home/pi/B108/Desktop/associacioader.com
-sudo rm /home/pi/B108/Desktop/st-data
+sudo rm -R /home/pi/A108/associacioader.com
+sudo rm -R /home/pi/A108/Desktop/associacioader.com
+sudo rm /home/pi/A108/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 
 

@@ -50,6 +50,12 @@ cd $usuario/$SCRIPTS_version
 git pull
 sleep 2
 
+
+#19-03-2022
+
+mv /home/pi/B108 /home/pi/
+
+
 #Actualiza todos los iconos y Quita todos los iconos verdes que se quedan al cerrar la imagen
 sudo cp $usuario/Desktop/Activar_dvswitch.desktop $usuario/.local #deja el icono en el estado que se reinició
 sudo cp $usuario/Desktop/Activar_NextionDriver.desktop $usuario/.local/Activar_NextionDriver.desktop_1 #deja el icono en el estado que se reinició

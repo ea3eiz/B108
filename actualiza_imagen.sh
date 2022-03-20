@@ -7,7 +7,7 @@ version=`expr substr $SCRIPTS_version 2 2`
 AUTOARRANQUE="AUTOARRANQUE"
 AUTOARRANQUE=$AUTOARRANQUE$SCRIPTS_version
 
-#Colores 
+#Colores xxxxxxxxxxx
 ROJO="\033[1;31m"
 VERDE="\033[1;32m"
 BLANCO="\033[1;37m"

@@ -41,7 +41,7 @@ echo "                               ABRIENDO DMR+                              
 echo " **************************************************************************"
 sleep 2
 #/home/pi/B108/./qt_info_dmrplus & sudo ./MMDVMPLUS MMDVMPLUS.ini
-sudo ./MMDVMPLUS MMDVMPLUS.ini
+sudo xterm -geometry 76x15+1296+560 -bg black -fg white -fa 'Serif' -fs 9x -T RADIO_TERMINAL -e ./MMDVMPLUS MMDVMPLUS.ini
 #sudo ./MMDVMPLUS MMDVMPLUS.ini
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi

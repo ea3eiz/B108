@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/B108;./qt_editor_radio"
+Exec=sh -c "cd /home/pi/B108;./qt_OpenEditorRadio"
 Icon=/home/pi/B108/ICONO_EDITAR_BLUEDV.png
 Type=Application
 StartupNotify=false

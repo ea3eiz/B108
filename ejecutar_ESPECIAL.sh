@@ -51,7 +51,7 @@ echo " *************************************************************************
 echo "                            ABRIENDO ESPECIAL                             "
 echo " **************************************************************************"
 sleep 2
-#/home/pi/A108/./qt_info_especial & sudo ./MMDVMESPECIAL MMDVMESPECIAL.ini
+#/home/pi/B108/./qt_info_especial & sudo ./MMDVMESPECIAL MMDVMESPECIAL.ini
 sudo ./MMDVMESPECIAL MMDVMESPECIAL.ini
 cd /home/pi/Desktop
 sudo cp Abrir_ESPECIAL.desktop /home/pi

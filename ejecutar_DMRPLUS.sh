@@ -40,7 +40,7 @@ echo " *************************************************************************
 echo "                               ABRIENDO DMR+                              "
 echo " **************************************************************************"
 sleep 2
-#/home/pi/A108/./qt_info_dmrplus & sudo ./MMDVMPLUS MMDVMPLUS.ini
+#/home/pi/B108/./qt_info_dmrplus & sudo ./MMDVMPLUS MMDVMPLUS.ini
 sudo ./MMDVMPLUS MMDVMPLUS.ini
 #sudo ./MMDVMPLUS MMDVMPLUS.ini
 cd /home/pi/Desktop

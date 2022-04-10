@@ -181,9 +181,9 @@ sudo cp -f /opt/HBmonitor/index_template.html /home/pi/.local/COPIA_SEGURIDAD/Do
 sudo cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
 cd /home/pi/.local/COPIA_SEGURIDAD
-tar -zcvf Copia_A108.zip Downloads
-cp  Copia_A108.zip /var/www/html/upload/files
-sudo Copia_A108.zip
+tar -zcvf Copia_B108.zip Downloads
+cp  Copia_B108.zip /var/www/html/upload/files
+sudo Copia_B108.zip
 
 
 

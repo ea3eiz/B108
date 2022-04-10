@@ -40,7 +40,7 @@ echo " *************************************************************************
 echo "                             ABRIENDO RADIO                                "
 echo " **************************************************************************"
 sleep 2
-#/home/pi/A108/./qt_info_radio & sudo ./MMDVMHost MMDVM.ini
+#/home/pi/B108/./qt_info_radio & sudo ./MMDVMHost MMDVM.ini
 sudo ./MMDVMHost MMDVM.ini
 cd /home/pi/Desktop
 sudo cp Abrir_Radio.desktop /home/pi

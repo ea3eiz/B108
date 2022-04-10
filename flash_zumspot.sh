@@ -102,7 +102,7 @@ read a
 
                         
 
-                        cp /home/pi/A108/Config_zumspot.h /home/pi/MMDVM_HS/Config.h
+                        cp /home/pi/B108/Config_zumspot.h /home/pi/MMDVM_HS/Config.h
                         make clean
                         make 
                         fi

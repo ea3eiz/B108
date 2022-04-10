@@ -18,10 +18,10 @@ fi
 # path usuario
 usuario="/home/pi"
 usuario="$usuario"
-SCRIPTS_version="A108"
+SCRIPTS_version="B108"
 actualizacion=$(awk "NR==1" /home/pi/.config/autostart/actualizacion)
 
-version="A108-"
+version="B108-"
 version=$version$actualizacion
 
 #pone todos los status de inicio en OFF
@@ -279,9 +279,9 @@ rm $usuario/RXF_DMRGATEWAY.desktop
 sudo chmod 777 -R $usuario/Desktop
 sleep 2
 
-sudo rm -R /home/pi/A108/associacioader.com
-sudo rm -R /home/pi/A108/Desktop/associacioader.com
-sudo rm /home/pi/A108/Desktop/st-data
+sudo rm -R /home/pi/B108/associacioader.com
+sudo rm -R /home/pi/B108/Desktop/associacioader.com
+sudo rm /home/pi/B108/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 
 

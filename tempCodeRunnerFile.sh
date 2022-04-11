@@ -1,0 +1,1 @@
+sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;xterm -geometry 88x17+23+664 -bg black -fg white -fa 'Verdana' -fs 9x -T DMRPLUS -e sudo sh ejecutar_DMRPLUS.sh'" /home/pi/Abrir_MMDVMPLUS.desktop

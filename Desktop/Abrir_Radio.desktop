@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/B108; xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLO_DSTAR -e sudo sh OpenEjecutarRadio.sh'
+Exec=sh -c 'cd /home/pi/B108; xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T RADIO -e sudo sh OpenEjecutarRadio.sh'
 Icon=/home/pi/B108/ICONO_RADIO_OFF.png
 Type=Application
 StartupNotify=false

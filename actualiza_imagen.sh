@@ -41,7 +41,7 @@ MARRON="\33[38;5;138m"
                         exit
                         fi
 
-                        # Actualiza AUTORRANQUE_B108
+                        # Actualiza AUTORRANQUE_B108 
                         #cd /home/pi/.local
                         #git clone http://github.com/ea3eiz/AUTOARRANQUE_B108
                         #sleep 2

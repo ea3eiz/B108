@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/B108;./qt_reiniciar_imagen'
+Exec=sh -c 'cd /home/pi/B108;./qt_OpenReiniciar'
 Icon=/home/pi/B108/ICONO_REINICIAR_IMAGEN1.png
 Type=Application
 StartupNotify=false

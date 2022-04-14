@@ -93,7 +93,7 @@ sudo ircddbgateway -gui & sudo ./MMDVMDSTAR MMDVMDSTAR.ini
 # Cierra el icono Abrir Solo Dstar si no hay conexión  
 cd /home/pi/Desktop
 sudo cp Abrir_solodstar.desktop /home/pi
-sed -i "6c Exec=sh -c 'cd /home/pi/B108/;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLODSTAR -e sudo sh OpenEjecutarSolodstar.sh'" /home/pi/Abrir_solodstar.desktop
+sed -i "6c Exec=sh -c 'cd /home/pi/B108/;xterm -geometry 104x17+1158+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLODSTAR -e sudo sh OpenEjecutarSolodstar.sh'" /home/pi/Abrir_solodstar.desktop
 sed -i "7c Icon=/home/pi/$SCRIPTS_version/SOLO_D-STAR.png" /home/pi/Abrir_solodstar.desktop
 sed -i "11c Name[es_ES]=Abrir solo DSTAR" /home/pi/Abrir_solodstar.desktop
 sed -i "13c SOLODSTAR=OFF" /home/pi/status.ini
@@ -181,7 +181,7 @@ sudo ircddbgateway -gui & sudo ./MMDVMDSTAR MMDVMDSTAR.ini
 # Cierra el icono Abrir Solo Dstar si no hay conexión 
 cd /home/pi/Desktop
 sudo cp Abrir_solodstar.desktop /home/pi
-sed -i "6c Exec=sh -c 'cd /home/pi/B108/;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLODSTAR -e sudo sh OpenEjecutarSolodstar.sh'" /home/pi/Abrir_solodstar.desktop
+sed -i "6c Exec=sh -c 'cd /home/pi/B108/;xterm -geometry 104x17+1158+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLODSTAR -e sudo sh OpenEjecutarSolodstar.sh'" /home/pi/Abrir_solodstar.desktop
 sed -i "7c Icon=/home/pi/$SCRIPTS_version/SOLO_D-STAR.png" /home/pi/Abrir_solodstar.desktop
 sed -i "11c Name[es_ES]=Abrir solo DSTAR" /home/pi/Abrir_solodstar.desktop
 sed -i "13c SOLODSTAR=OFF" /home/pi/status.ini

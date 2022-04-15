@@ -221,6 +221,16 @@
                             cd /home/pi/AUTOARRANQUE
                             cp /home/pi/Desktop/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
+
+sudo killall -15 -r qt_OpenAuto
+sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sudo sh ejecutar_autoarranque.sh'" /hMenu_Autoarranque.desktop
+sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICONO_AUTOARRANQUE1.png" /home/pi/Menu_Autoarranque.desktop
+sed -i "11c Name[es_ES]=Abrir Autoarranque" /home/pi/Menu_Autoarranque.desktop
+
+
+
+
+
                                 
             cd /home/pi/.local/COPIA_SEGURIDAD/Downloads           
 

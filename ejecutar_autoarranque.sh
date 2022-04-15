@@ -9,4 +9,5 @@ cd /home/pi
 sudo cp Menu_Autoarranque.desktop /home/pi/Desktop
 sleep 1
 sudo rm /home/pi/Menu_Autoarranque.desktop
+cd /home/pi/B108
 ./qt_OpenMenuAutoarranqueBarra

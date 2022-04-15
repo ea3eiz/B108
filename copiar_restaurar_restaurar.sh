@@ -223,10 +223,7 @@
                             fi      
 
 sudo killall -15 -r qt_OpenAuto
-sleep 3
-sed -i "4c Exec=sh -c 'cd /home/pi/Desktop; sudo sh ejecutar_autoarranque.sh'" /Menu_Autoarranque.desktop
-sed -i "5c Icon=/home/pi/Desktop/ICONO_AUTOARRANQUE1.png" /home/pi/Menu_Autoarranque.desktop
-sed -i "11c Name[es_ES]=Abrir Autoarranque" /home/pi/Menu_Autoarranque.desktop
+
 
 
 

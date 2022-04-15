@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AbrirsoloDstar
+Comment=
+Exec=sh -c "cd /home/pi/B108/;xterm -geometry 104x17+1158+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLODSTAR -e sudo sh OpenEjecutarSolodstar.sh"
+Icon=/home/pi/B108/SOLO_D-STAR.png
+Path=/home/pi/B108
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Abrir solo DSTAR

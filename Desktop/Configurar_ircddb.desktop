@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=EA3EIZ
-Exec=sh -c "cd /home/pi/B108;./qt_editor_ircddb"
+Exec=sh -c "cd /home/pi/B108;./qt_OpenEditorIrcddb"
 Type=Application
 Terminal=false
 Comment[es_ES]=

@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=AbrirsoloYSF
 Comment=
-Exec=sh -c "cd /home/pi/B108/;lxterminal --geometry=88x19 -e sudo sh ejecutar_solofusion.sh"
+Exec=sh -c "cd /home/pi/B108/;sleep 15;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLOFUSION -e sudo sh OpenEjecutarSolofusion.sh"
 Icon=/home/pi/B108/SOLO_YSF.png
 Path=/home/pi/B108
 Terminal=false

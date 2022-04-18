@@ -12,6 +12,6 @@ sed -i "7c Icon=/home/pi/$SCRIPTS_version/SOLO_YSF.png" /home/pi/Abrir_solofusio
 sed -i "11c Name[es_ES]=Abrir solo FUSION" /home/pi/Abrir_solofusion.desktop
 sed -i "12c SOLOFUSION=OFF" /home/pi/status.ini
 cd /home/pi
-cp Abrir_solofusion.desktop /home/pi/Desktop
+sudo cp Abrir_solofusion.desktop /home/pi/Desktop
 sleep 4
 rm /home/pi/Abrir_solofusion.desktop

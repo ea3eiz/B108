@@ -13,5 +13,5 @@ sed -i "11c Name[es_ES]=Abrir solo FUSION" /home/pi/Abrir_solofusion.desktop
 sed -i "12c SOLOFUSION=OFF" /home/pi/status.ini
 cd /home/pi
 cp Abrir_solofusion.desktop /home/pi/Desktop
-sleep
+sleep 4
 rm /home/pi/Abrir_solofusion.desktop

@@ -50,7 +50,7 @@ cd /home/pi/MMDVMHost
 
 xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2YSF -e sudo ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
-xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T YSFGATEWAY -e sudo ./YSFGateway YSFGateway.ini
+xterm -geometry 88x12+648+100 -bg black -fg white -fa 'Verdana' -fs 9x -T YSFGATEWAY -e sudo ./YSFGateway YSFGateway.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2YSF.desktop /home/pi

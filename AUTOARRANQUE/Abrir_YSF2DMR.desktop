@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/B108/;sleep 15;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T YSF2DMR -e sudo sh ejecutar_YSF2DMR.sh"
+Exec=sh -c 'cd /home/pi/B108/;sleep 20;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T YSF2DMR -e sudo sh ejecutar_YSF2DMR.sh'
 Icon=/home/pi/B108/ICONO_YSF2DMR_OFF.png
 Type=Application
 StartupNotify=false

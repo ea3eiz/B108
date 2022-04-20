@@ -14,3 +14,4 @@ cd /home/pi
 sudo cp Abrir_YSF2DMR.desktop /home/pi/Desktop
 
 sudo rm /home/pi/Abrir_YSF2DMR.desktop
+ 

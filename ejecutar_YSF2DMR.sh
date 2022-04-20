@@ -1,12 +1,13 @@
 #!/bin/bash
 
-#Colores 
+#Colores
 ROJO="\033[1;31m"
 VERDE="\033[1;32m"
 BLANCO="\033[1;37m"
 AMARILLO="\033[1;33m"
 CIAN="\033[1;36m"
 GRIS="\033[0m"
+MARRON="\33[38;5;138m"
 
 mode=`grep -n -m 1 "^UARTPort=" /home/pi/MMDVMHost/MMDVMFUSION.ini`
 buscar=":"
@@ -46,7 +47,7 @@ cd /home/pi/YSF2DMR
 sudo lxterminal --geometry=88x12 -e ./YSF2DMR YSF2DMR.ini & 
 sleep 2
 cd /home/pi/MMDVMHost
-#/home/pi/B108/./qt_info_ysf2dmr & sudo ./MMDVMFUSION MMDVMFUSION.ini 
+
 sudo ./MMDVMFUSION MMDVMFUSION.ini
 cd /home/pi/Desktop
 sudo cp Abrir_YSF2DMR.desktop /home/pi
@@ -56,7 +57,7 @@ sed -i "10c Name[es_ES]=Abrir YSF2DMR" /home/pi/Abrir_YSF2DMR.desktop
 sed -i "14c YSF2DMR=OFF" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_YSF2DMR.desktop /home/pi/Desktop
-sleep 1
+sleep 2
 sudo rm /home/pi/Abrir_YSF2DMR.desktop
 
  

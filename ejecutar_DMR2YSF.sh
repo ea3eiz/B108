@@ -44,11 +44,11 @@ sudo cp Abrir_DMR2YSF.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2YSF.desktop
 
 cd /home/pi/DMR2YSF
-
 sudo lxterminal --geometry=88x12 -e ./DMR2YSF DMR2YSF.ini & 
+sleep 2
 cd /home/pi/MMDVMHost
-#/home/pi/B108/./qt_info_dmr2ysf & sudo lxterminal --geometry=77x18 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
-sudo lxterminal --geometry=88x17 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
+
+sudo ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
 sudo ./YSFGateway YSFGateway.ini
 
@@ -60,7 +60,7 @@ sed -i "10c Name[es_ES]=Abrir DMR2YSF" /home/pi/Abrir_DMR2YSF.desktop
 sed -i "15c DMR2YSF=OFF" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_DMR2YSF.desktop /home/pi/Desktop
-
+sleep 2
 sudo rm /home/pi/Abrir_DMR2YSF.desktop
 
 

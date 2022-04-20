@@ -48,9 +48,9 @@ sudo lxterminal --geometry=88x12 -e ./DMR2YSF DMR2YSF.ini &
 sleep 2
 cd /home/pi/MMDVMHost
 
-sudo ./DMR2YSF MMDVMDMR2YSF.ini &
+xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2YSF -e sudo ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
-sudo ./YSFGateway YSFGateway.ini
+xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T YSFGATEWAY -e sudo ./YSFGateway YSFGateway.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2YSF.desktop /home/pi
@@ -62,7 +62,3 @@ cd /home/pi
 sudo cp Abrir_DMR2YSF.desktop /home/pi/Desktop
 sleep 2
 sudo rm /home/pi/Abrir_DMR2YSF.desktop
-
-
- 
-  

@@ -1,5 +1,5 @@
 ﻿#!/bin/bash
-
+clear
 #sed -i "20c MARCA_DVSWITCH=OFF" /home/pi/status.ini
 
 sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
@@ -27,6 +27,6 @@ sudo systemctl stop nxdngateway.service
 #zenity --info --ok-label= --title=DVSWITCH --window-icon=/home/pi/B108/ICONO_DVSWITCH_OFF.png --width=400 --timeout=5 --text "\n\n\nDVSWITCH DESACTIVADO"
 
 /home/pi/B108/./qt_dvswitch_desactivado
-cd /home/pi/B108
+#cd /home/pi/B108
 #sudo sh cerrar_solodstar.sh
 ##sudo sh cerrar_ircDDB.sh

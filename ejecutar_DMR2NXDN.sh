@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 estado_dvswitch=$(awk "NR==18" /home/pi/status.ini)
 if [ "$estado_dvswitch" = 'DVSWITCH=ON' ];then
 

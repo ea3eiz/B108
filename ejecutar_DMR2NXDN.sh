@@ -69,7 +69,7 @@ cd /home/pi/DMR2NXDN
 sudo lxterminal --geometry=88x12 -e ./DMR2NXDN DMR2NXDN.ini & 
 
 cd /home/pi/MMDVMHost
-xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2NXDN -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
+sudo ./DMR2NXDN MMDVMDMR2NXDN.ini &
 cd /home/pi/NXDNClients/NXDNGateway
 
 
@@ -125,7 +125,7 @@ cd /home/pi/DMR2NXDN
 sudo lxterminal --geometry=88x12 -e ./DMR2NXDN DMR2NXDN.ini & 
 
 cd /home/pi/MMDVMHost
-xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2NXDN -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
+sudo ./DMR2NXDN MMDVMDMR2NXDN.ini &
 
 
 cd /home/pi/NXDNClients/NXDNGateway

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/B108/; xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2NXDN -e sudo sh ejecutar_DMR2NXDN.sh'
+Exec=sh -c 'cd /home/pi/B108/; xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2NXDN -e sudo sh ejecutar_DMR2NXDN.sh'
 Icon=/home/pi/B108/ICONO_DMR2NXDN_OFF.png
 Type=Application
 StartupNotify=false

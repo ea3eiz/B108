@@ -66,7 +66,7 @@ sudo rm /home/pi/Abrir_DMR2NXDN.desktop
 
 cd /home/pi/DMR2NXDN
 
-sudo lxterminal --geometry=88x10 -e ./DMR2NXDN DMR2NXDN.ini & 
+sudo lxterminal --geometry=88x11 -e ./DMR2NXDN DMR2NXDN.ini & 
 
 cd /home/pi/MMDVMHost
 sudo ./DMR2NXDN MMDVMDMR2NXDN.ini &
@@ -122,7 +122,7 @@ sudo cp Abrir_DMR2NXDN.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2NXDN.desktop
 
 cd /home/pi/DMR2NXDN
-sudo lxterminal --geometry=88x12 -e ./DMR2NXDN DMR2NXDN.ini & 
+sudo lxterminal --geometry=88x11 -e ./DMR2NXDN DMR2NXDN.ini & 
 
 cd /home/pi/MMDVMHost
 sudo ./DMR2NXDN MMDVMDMR2NXDN.ini &

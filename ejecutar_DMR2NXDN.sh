@@ -123,11 +123,13 @@ sudo rm /home/pi/Abrir_DMR2NXDN.desktop
 cd /home/pi/DMR2NXDN
 
 sudo lxterminal --geometry=88x12 -e ./DMR2NXDN DMR2NXDN.ini & 
+
 cd /home/pi/MMDVMHost
-#/home/pi/B108/./qt_info_dmr2nxdn & sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
-xterm -geometry 88x12+648+136 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2NXDN -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
+xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMDMR2NXDN -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
 cd /home/pi/NXDNClients/NXDNGateway
-sudo ./NXDNGateway NXDNGateway.ini
+
+
+xterm -geometry 88x17+648+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2NXDN.desktop /home/pi

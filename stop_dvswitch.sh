@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-sed -i "20c MARCA_DVSWITCH=OFF" /home/pi/status.ini
+#sed -i "20c MARCA_DVSWITCH=OFF" /home/pi/status.ini
 
 sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
 
@@ -28,5 +28,5 @@ sudo systemctl stop nxdngateway.service
 
 /home/pi/B108/./qt_dvswitch_desactivado
 cd /home/pi/B108
-sudo sh cerrar_solodstar.sh
-sudo sh cerrar_ircDDB.sh
+#sudo sh cerrar_solodstar.sh
+##sudo sh cerrar_ircDDB.sh

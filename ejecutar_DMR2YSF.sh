@@ -44,7 +44,7 @@ sudo cp Abrir_DMR2YSF.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2YSF.desktop
 
 cd /home/pi/DMR2YSF
-sudo lxterminal --geometry=88x12 -e ./DMR2YSF DMR2YSF.ini & 
+sudo lxterminal --geometry=88x10 -e ./DMR2YSF DMR2YSF.ini & 
 sleep 2
 
 cd /home/pi/YSFClients/YSFGateway

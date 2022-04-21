@@ -10,8 +10,8 @@ sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;xterm -geometry 88x17+648+66
 sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICONO_DMR2NXDN_OFF.png" /home/pi/Abrir_DMR2NXDN.desktop
 sed -i "10c Name[es_ES]=Abrir DMR2NXDN" /home/pi/Abrir_DMR2NXDN.desktop
 sed -i "16c DMR2NXDN=OFF" /home/pi/status.ini
-sleep 1
+sleep 2
 cd /home/pi
 sudo cp Abrir_DMR2NXDN.desktop /home/pi/Desktop
-
+sleep 1
 sudo rm /home/pi/Abrir_DMR2NXDN.desktop

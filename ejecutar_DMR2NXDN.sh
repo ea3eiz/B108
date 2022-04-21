@@ -129,7 +129,7 @@ xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMD
 cd /home/pi/NXDNClients/NXDNGateway
 
 
-xterm -geometry 88x17+648+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
+xterm -geometry 88x12+648+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2NXDN.desktop /home/pi

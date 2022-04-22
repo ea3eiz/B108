@@ -44,7 +44,7 @@ sudo cp Abrir_DMR2YSF.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2YSF.desktop
 
 cd /home/pi/DMR2YSF
-xterm -geometry 88x10+648+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2YSF -e ./DMR2YSF DMR2YSF.ini &
+xterm -geometry 88x11+648+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2YSF -e ./DMR2YSF DMR2YSF.ini &
 sleep 2
 
 cd /home/pi/YSFClients/YSFGateway

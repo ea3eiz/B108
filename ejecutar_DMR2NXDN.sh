@@ -15,9 +15,11 @@ MARRON="\33[38;5;138m"
 echo "${BLANCO}"
 echo "                  ******************************************"
 echo "                                                            "
-echo "                             DESACTIVANDO DVSWITCH          "
+echo "                            ${ROJO}DESACTIVANDO DVSWITCH${BLANCO}          "
+echo "                                                            "
 echo "                          PARA QUE FUNCIONE DMR2NXDN        "
-echo "                       PACIENCIA!! ESPERE A QUE SE ABRA     "
+echo "                                                            "
+echo "                       ${AMARILLO}PACIENCIA!! ESPERE A QUE SE ABRA${BLANCO}     "
 echo "                                                            "
 echo "                  ******************************************"
 echo "${GRIS}"
@@ -27,7 +29,6 @@ sleep 10
 sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
 cd /home/pi/B108
 sh stop_dvswitch.sh
-sleep 20
 
 mode=`grep -n -m 1 "^UARTPort=" /home/pi/MMDVMHost/MMDVMDMR2NXDN.ini`
 buscar=":"

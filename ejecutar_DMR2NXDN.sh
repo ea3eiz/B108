@@ -64,7 +64,7 @@ sudo cp Abrir_DMR2NXDN.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2NXDN.desktop
 
 cd /home/pi/DMR2NXDN
-xterm -geometry 88x11+648+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini &
+xterm -geometry 88x11+1158+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini &
 
 cd /home/pi/MMDVMHost
 sudo ./DMR2NXDN MMDVMDMR2NXDN.ini &
@@ -119,14 +119,14 @@ sudo cp Abrir_DMR2NXDN.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2NXDN.desktop
 
 cd /home/pi/DMR2NXDN
-xterm -geometry 88x11+648+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini &
+xterm -geometry 88x11+1158+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini &
 
 cd /home/pi/MMDVMHost
 sudo ./DMR2NXDN MMDVMDMR2NXDN.ini &
 
 
 cd /home/pi/NXDNClients/NXDNGateway
-xterm -geometry 88x12+648+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
+xterm -geometry 88x12+1158+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2NXDN.desktop /home/pi

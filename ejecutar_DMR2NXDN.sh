@@ -25,7 +25,6 @@ sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
 cd /home/pi/B108
 sh stop_dvswitch.sh
 
-
 else
 
 mode=`grep -n -m 1 "^UARTPort=" /home/pi/MMDVMHost/MMDVMDMR2NXDN.ini`

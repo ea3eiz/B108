@@ -44,7 +44,7 @@ sudo cp Abrir_YSF2DMR.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_YSF2DMR.desktop
 
 cd /home/pi/YSF2DMR
-sudo lxterminal --geometry=88x12 -e ./YSF2DMR YSF2DMR.ini & 
+xterm -geometry 88x11+648+420 -bg black -fg white -fa 'Verdana' -fs 9x -T YSF2DMR -e ./YSF2DMR YSF2DMR.ini &
 sleep 2
 cd /home/pi/MMDVMHost
 

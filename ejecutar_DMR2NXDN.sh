@@ -14,8 +14,8 @@ MARRON="\33[38;5;138m"
 
 echo "${BLANCO}"
 echo "                  ******************************************"
-echo "                  *           Al abrir DMR2NXDN            *"
-echo "                  *         ${ROJO}se desactiva DVSWITCH${BLANCO}          *"
+echo "                           ${ROJO} DESACTIVANDO DVSWITCH ${BLANCO}         "
+echo "                     PARA QUE FUNCIONE DMR2NXDN           *"
 echo "                  ******************************************"
 echo "${GRIS}"
 sleep 3

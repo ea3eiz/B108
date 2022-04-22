@@ -14,11 +14,14 @@ MARRON="\33[38;5;138m"
 
 echo "${BLANCO}"
 echo "                  ******************************************"
-echo "                           ${ROJO} DESACTIVANDO DVSWITCH ${BLANCO}         "
-echo "                     PARA QUE FUNCIONE DMR2NXDN           *"
+echo "                                                            "
+echo "                             DESACTIVANDO DVSWITCH          "
+echo "                          PARA QUE FUNCIONE DMR2NXDN        "
+echo "                       PACIENCIA!! ESPERE A QUE SE ABRA     "
+echo "                                                            "
 echo "                  ******************************************"
 echo "${GRIS}"
-sleep 3
+sleep 10
 
 # Desactiva DVSWITCH 
 sed -i "18c DVSWITCH=OFF" /home/pi/status.ini

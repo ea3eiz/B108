@@ -54,46 +54,37 @@
                             info=$(awk "NR==1" /home/pi/.local/autoarranque.ini)
                             if [ $info = "ircDDB=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/IRCDDB.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_IRCDDB.desktop
                             else
                        		cd /home/pi/AUTOARRANQUE
-                  		    sudo cp IRCDDB.desktop /home/pi/.config/autostart
-                            fi
-
-                            info=$(awk "NR==2" /home/pi/.local/autoarranque.ini)
-                            if [ $info = "BlueDV=OFF" ]
-                            then
-                            sudo rm /home/pi/.config/autostart/BLUEDV.desktop
-                            else
-                            cd /home/pi/AUTOARRANQUE
-                            sudo cp BLUEDV.desktop /home/pi/.config/autostart
+                  		    sudo cp Abrir_IRCDDB.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==3" /home/pi/.local/autoarranque.ini)
                             if [ $info = "YSF=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/YSF.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_YSF.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp YSF.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_YSF.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==4" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DV4mini=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/DV4MINI.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_dv4mini.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp DV4MINI.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_dv4mini.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==5" /home/pi/.local/autoarranque.ini)
                             if [ $info = "Radio=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/RADIO.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_RADIO.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp RADIO.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_RADIO.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==6" /home/pi/.local/autoarranque.ini)
@@ -111,7 +102,7 @@
                             sudo rm /home/pi/.config/autostart/LIBRE.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp LIBRE.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_ESPECIAL.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==8" /home/pi/.local/autoarranque.ini)
@@ -126,91 +117,91 @@
                             info=$(awk "NR==9" /home/pi/.local/autoarranque.ini)
                             if [ $info = "SVXLINK=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/SVXLINK.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_svxlink.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp SVXLINK.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_svxlink.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==10" /home/pi/.local/autoarranque.ini)
                             if [ $info = "SOLO_DSTAR=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/DSTARSOLO_05.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_solodstar.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp DSTARSOLO_05.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_solodstar.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==11" /home/pi/.local/autoarranque.ini)
                             if [ $info = "SOLO_FUSION=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/FUSIONSOLO.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_solofusion.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp FUSIONSOLO.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_solofusion.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==12" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DVRPTR=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/DVRPTR.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_Dvrptr.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp DVRPTR.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_Dvrptr.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==13" /home/pi/.local/autoarranque.ini)
                             if [ $info = "AMBE_SERVER=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/AMBE_SERVER.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_ambe_server.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp AMBE_SERVER.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_ambe_server.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==14" /home/pi/.local/autoarranque.ini)
                             if [ $info = "YSF2DMR=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/YSF2DMR.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_YSF2DMR.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp YSF2DMR.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_YSF2DMR.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==15" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMR2YSF=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/DMR2YSF.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_DMR2YSF.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp DMR2YSF.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_DMR2YSF.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==16" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMR2NXDN=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/DMR2NXDN.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_DMR2NXDN.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp DMR2NXDN.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_DMR2NXDN.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==17" /home/pi/.local/autoarranque.ini)
                             if [ $info = "NXDN=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/NXDN.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_NXDN.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp NXDN.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_NXDN.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==18" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMRGateway=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/DMRGateway.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_dmrgateway.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp DMRGateway.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_dmrgateway.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==19" /home/pi/.local/autoarranque.ini)
@@ -219,7 +210,7 @@
                             sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            cp /home/pi/Desktop/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
+                            sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
 
 sudo killall -15 -r qt_OpenAuto

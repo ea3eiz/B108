@@ -185,7 +185,7 @@
                             cd /home/pi/AUTOARRANQUE
                             sudo cp Abrir_DMR2NXDN.desktop /home/pi/.config/autostart
                             fi
-
+sleep 2
                             info=$(awk "NR==17" /home/pi/.local/autoarranque.ini)
                             if [ $info = "NXDN=OFF" ]
                             then
@@ -194,7 +194,7 @@
                             cd /home/pi/AUTOARRANQUE
                             sudo cp Abrir_NXDN.desktop /home/pi/.config/autostart
                             fi
-
+sleep 2
                             info=$(awk "NR==18" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMRGateway=OFF" ]
                             then
@@ -203,7 +203,7 @@
                             cd /home/pi/AUTOARRANQUE
                             sudo cp Abrir_dmrgateway.desktop /home/pi/.config/autostart
                             fi
-
+sleep 2
                             info=$(awk "NR==19" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMR2M17=OFF" ]
                             then

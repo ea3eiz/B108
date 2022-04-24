@@ -2,7 +2,6 @@
 Encoding=UTF-8
 TryExec=lxterminal
 Exec=sh -c 'cd /home/pi/B108/;sleep 20; xterm -geometry 88x17+1272+664 -bg black -fg white -fa 'Verdana' -fs 9x -T AMBE SERVER -e sudo sh ejecutar_ambe_server.sh'
-
 Icon=/home/pi/B108/ICONO_AMBE_SERVER_OFF.png
 Type=Application
 StartupNotify=false

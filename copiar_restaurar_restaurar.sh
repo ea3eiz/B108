@@ -56,7 +56,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_IRCDDB.desktop
                             else
-                       		cd /home/pi/AUTOARRANQUE
+                       		cd /home/pi/B108/AUTOARRANQUE
                   		    sudo cp Abrir_IRCDDB.desktop /home/pi/.config/autostart
                             fi
 
@@ -65,7 +65,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_YSF.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_YSF.desktop /home/pi/.config/autostart
                             fi
 
@@ -74,7 +74,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_dv4mini.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_dv4mini.desktop /home/pi/.config/autostart
                             fi
 
@@ -83,7 +83,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_RADIO.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_RADIO.desktop /home/pi/.config/autostart
                             fi
 
@@ -92,7 +92,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_MMDVMPLUS.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_MMDVMPLUS.desktop /home/pi/.config/autostart
                             fi
 
@@ -101,7 +101,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/LIBRE.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_ESPECIAL.desktop /home/pi/.config/autostart
                             fi
 
@@ -110,7 +110,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_MMDVMBM.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_MMDVMBM.desktop /home/pi/.config/autostart
                             fi
 
@@ -119,7 +119,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_svxlink.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_svxlink.desktop /home/pi/.config/autostart
                             fi
 
@@ -128,7 +128,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_solodstar.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_solodstar.desktop /home/pi/.config/autostart
                             fi
 
@@ -137,7 +137,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_solofusion.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_solofusion.desktop /home/pi/.config/autostart
                             fi
 
@@ -146,7 +146,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_Dvrptr.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_Dvrptr.desktop /home/pi/.config/autostart
                             fi
 
@@ -155,7 +155,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_ambe_server.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_ambe_server.desktop /home/pi/.config/autostart
                             fi
 
@@ -164,7 +164,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_YSF2DMR.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_YSF2DMR.desktop /home/pi/.config/autostart
                             fi
 
@@ -173,7 +173,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_DMR2YSF.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_DMR2YSF.desktop /home/pi/.config/autostart
                             fi
 
@@ -182,49 +182,36 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_DMR2NXDN.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_DMR2NXDN.desktop /home/pi/.config/autostart
                             fi
-sleep 2
+
                             info=$(awk "NR==17" /home/pi/.local/autoarranque.ini)
                             if [ $info = "NXDN=OFF" ]
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_NXDN.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_NXDN.desktop /home/pi/.config/autostart
                             fi
-sleep 2
+
                             info=$(awk "NR==18" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMRGateway=OFF" ]
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_dmrgateway.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
+                            cd /home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_dmrgateway.desktop /home/pi/.config/autostart
                             fi
-sleep 2
+
                             info=$(awk "NR==19" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DMR2M17=OFF" ]
                             then
                             sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
                             else
-                            cd /home/pi/AUTOARRANQUE
-                            sudo cp /home/pi/B108/AUTOARRANQUE/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
+                            cd /home/pi/B108/AUTOARRANQUE
+                            cp /home/pi/Desktop/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
-
-
-
-    #system("sed -i '1c ircDDB=OFF' /home/pi/.local/autoarranque.ini");
-    #system("rm /home/pi/.config/autostart/Abrir_ircDDB.desktop");
-    #system("sed -i '1c ircDDB=ON' /home/pi/.local/autoarranque.ini");
-    #system("sudo cp /home/pi/B108/AUTOARRANQUE/Abrir_ircDDB.desktop /home/pi/.config/autostart");
-
-
-
-
-
-
 
 sudo killall -15 -r qt_OpenAuto
 

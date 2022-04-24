@@ -204,15 +204,14 @@
                             cp Abrir_dmrgateway.desktop /home/pi/.config/autostart
                             fi
 
-                            #info=$(awk "NR==19" /home/pi/.local/autoarranque.ini)
-                            #if [ $info = "DMR2M17=OFF" ]
-                            #then
-                            #sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
-                            #else
-                            #cd /home/pi/Desktop
-                            #sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
-                            #fi      
-
+                            info=$(awk "NR==19" /home/pi/.local/autoarranque.ini)
+                            if [ $info = "DMR2M17=OFF" ]
+                            then
+                            sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
+                            else
+                            cd /home/pi/Desktop
+                            sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
+                            fi      
 sudo killall -15 -r qt_OpenAuto
 
 

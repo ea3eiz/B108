@@ -210,8 +210,21 @@
                             sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp /home/pi/Desktop/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
+                            sudo cp /home/pi/B108/AUTOARRANQUE/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
+
+
+
+    #system("sed -i '1c ircDDB=OFF' /home/pi/.local/autoarranque.ini");
+    #system("rm /home/pi/.config/autostart/Abrir_ircDDB.desktop");
+    #system("sed -i '1c ircDDB=ON' /home/pi/.local/autoarranque.ini");
+    #system("sudo cp /home/pi/B108/AUTOARRANQUE/Abrir_ircDDB.desktop /home/pi/.config/autostart");
+
+
+
+
+
+
 
 sudo killall -15 -r qt_OpenAuto
 

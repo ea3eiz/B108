@@ -141,7 +141,7 @@
                             sudo cp Abrir_solofusion.desktop /home/pi/.config/autostart
                             fi
 
-                            info=$(awk "NR==20" /home/pi/.local/autoarranque.ini)
+                            info=$(awk "NR==12" /home/pi/.local/autoarranque.ini)
                             if [ $info = "DVRPTR=OFF" ]
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_Dvrptr.desktop
@@ -210,7 +210,7 @@
                             sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
                             else
                             cd /home/pi/AUTOARRANQUE
-                            sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
+                            sudo cp /home/pi/Desktop/ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
 
 sudo killall -15 -r qt_OpenAuto

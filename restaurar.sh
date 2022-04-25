@@ -236,7 +236,7 @@ echo "***************************************************"
                             sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi  
                                 
-sudo killall -15 -r qt_OpenAuto                     
+#sudo killall -15 -r qt_OpenAuto                     
 
 cd /home/pi/.local/COPIA_SEGURIDAD/Downloads 
 

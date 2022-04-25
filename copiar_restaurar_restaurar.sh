@@ -212,7 +212,7 @@
                             cd /home/pi/Desktop
                             sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
-sudo killall -15 -r qt_OpenAuto
+#sudo killall -15 -r qt_OpenAuto
 
 
 

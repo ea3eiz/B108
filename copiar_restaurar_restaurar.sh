@@ -54,10 +54,10 @@
                             info=$(awk "NR==1" /home/pi/.local/autoarranque.ini)
                             if [ $info = "ircDDB=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/Abrir_IRCDDB.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_ircDDB.desktop
                             else
                        		cd /home/pi/Desktop
-                  		    sudo cp Abrir_IRCDDB.desktop /home/pi/.config/autostart
+                  		    sudo cp Abrir_ircDDB.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==3" /home/pi/.local/autoarranque.ini)
@@ -81,10 +81,10 @@
                             info=$(awk "NR==5" /home/pi/.local/autoarranque.ini)
                             if [ $info = "Radio=OFF" ]
                             then
-                            sudo rm /home/pi/.config/autostart/Abrir_RADIO.desktop
+                            sudo rm /home/pi/.config/autostart/Abrir_Radio.desktop
                             else
                             cd /home/pi/Desktop
-                            sudo cp Abrir_RADIO.desktop /home/pi/.config/autostart
+                            sudo cp Abrir_Radio.desktop /home/pi/.config/autostart
                             fi
 
                             info=$(awk "NR==6" /home/pi/.local/autoarranque.ini)

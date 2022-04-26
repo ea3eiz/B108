@@ -43,7 +43,6 @@ sleep 2
 #/home/pi/A108/./qt_info_dmrplus & sudo ./MMDVMPLUS MMDVMPLUS.ini
 sudo ./MMDVMPLUS MMDVMPLUS.ini
 #sudo ./MMDVMPLUS MMDVMPLUS.ini
-sleep 10
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi
 sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T DMRPLUS -e sudo sh ejecutar_DMRPLUS.sh'" /home/pi/Abrir_MMDVMPLUS.desktop

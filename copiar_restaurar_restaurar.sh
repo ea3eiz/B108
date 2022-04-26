@@ -56,7 +56,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_ircDDB.desktop
                             else
-                       		cd /home/pi/Desktop
+                       		cd/home/pi/B108/AUTOARRANQUE
                   		    sudo cp Abrir_ircDDB.desktop /home/pi/.config/autostart
                             fi
 
@@ -65,7 +65,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_YSF.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_YSF.desktop /home/pi/.config/autostart
                             fi
 
@@ -74,7 +74,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_dv4mini.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_dv4mini.desktop /home/pi/.config/autostart
                             fi
 
@@ -83,7 +83,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_Radio.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_Radio.desktop /home/pi/.config/autostart
                             fi
 
@@ -92,7 +92,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_MMDVMPLUS.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_MMDVMPLUS.desktop /home/pi/.config/autostart
                             fi
 
@@ -101,7 +101,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/LIBRE.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_ESPECIAL.desktop /home/pi/.config/autostart
                             fi
 
@@ -110,7 +110,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_MMDVMBM.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_MMDVMBM.desktop /home/pi/.config/autostart
                             fi
 
@@ -119,7 +119,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_svxlink.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_svxlink.desktop /home/pi/.config/autostart
                             fi
 
@@ -128,7 +128,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_solodstar.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_solodstar.desktop /home/pi/.config/autostart
                             fi
 
@@ -137,7 +137,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_solofusion.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_solofusion.desktop /home/pi/.config/autostart
                             fi
 
@@ -146,7 +146,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_Dvrptr.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_Dvrptr.desktop /home/pi/.config/autostart
                             fi
 
@@ -155,7 +155,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_ambe_server.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_ambe_server.desktop /home/pi/.config/autostart
                             fi
 
@@ -164,7 +164,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_YSF2DMR.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_YSF2DMR.desktop /home/pi/.config/autostart
                             fi
 
@@ -173,7 +173,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_DMR2YSF.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp Abrir_DMR2YSF.desktop /home/pi/.config/autostart
                             fi
 
@@ -182,7 +182,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_DMR2NXDN.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             cp Abrir_DMR2NXDN.desktop /home/pi/.config/autostart
                             fi
 
@@ -191,7 +191,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_NXDN.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             cp Abrir_NXDN.desktop /home/pi/.config/autostart
                             fi
 
@@ -200,7 +200,7 @@
                             then
                             sudo rm /home/pi/.config/autostart/Abrir_dmrgateway.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             cp Abrir_dmrgateway.desktop /home/pi/.config/autostart
                             fi
 
@@ -209,16 +209,10 @@
                             then
                             sudo rm /home/pi/.config/autostart/ABRIR_DMR2M17.desktop
                             else
-                            cd /home/pi/Desktop
+                            cd/home/pi/B108/AUTOARRANQUE
                             sudo cp ABRIR_DMR2M17.desktop /home/pi/.config/autostart
                             fi      
 #sudo killall -15 -r qt_OpenAuto
-
-
-
-
-
-
                                 
             cd /home/pi/.local/COPIA_SEGURIDAD/Downloads           
 

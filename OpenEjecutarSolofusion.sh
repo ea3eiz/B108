@@ -54,5 +54,5 @@ sed -i "12c SOLOFUSION=OFF" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_solofusion.desktop /home/pi/Desktop
 
-sudo rm /home/pi/Abrir_solofusion.desktop
+sudo rm /home/pi/Abrir_solofusion.desktop 
 

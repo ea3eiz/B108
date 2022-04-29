@@ -38,8 +38,11 @@ sudo rm /home/pi/Abrir_NXDN.desktop
 cd /home/pi/MMDVMHost
 #/home/pi/B108/./qt_info_nxdn & sudo lxterminal --geometry=80x12 -e ./MMDVMNXDN MMDVMNXDN.ini &
 sudo ./MMDVMNXDN MMDVMNXDN.ini &
+
 cd /home/pi/NXDNClients/NXDNGateway
-sudo lxterminal --geometry=88x12 -e ./NXDNGateway NXDNGateway.ini
+xterm -geometry 88x12+650+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
+
+
 
 cd /home/pi/Desktop
 sudo cp Abrir_NXDN.desktop /home/pi

@@ -1,7 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/B108;lxterminal --geometry=77x18 -e sudo sh ejecutar_NXDN.sh'
+Exec=sh -c "cd /home/pi/B108/;xterm -geometry 88x17+1272+664 -bg black -fg white -fa 'Verdana' -fs 9x -T MMDVMNXDN -e Exec=sh -c "cd /home/pi/B108/;xterm -geometry 88x17+648+664 -bg black -fg white -fa 'Verdana' -fs 9x -T SOLOFUSION -e sudo sh OpenEjecutarSolofusion.sh"
+"
+
 Icon=/home/pi/B108/ICONO_NXDN_OFF.png
 Type=Application
 StartupNotify=false

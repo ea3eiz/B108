@@ -40,7 +40,7 @@ cd /home/pi/MMDVMHost
 sudo ./MMDVMNXDN MMDVMNXDN.ini &
 
 cd /home/pi/NXDNClients/NXDNGateway
-xterm -geometry 88x12+650+136 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
+xterm -geometry 88x11+650+420 -bg black -fg white -fa 'Verdana' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
 
 
 

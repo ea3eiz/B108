@@ -12,13 +12,13 @@ cp ABRIR_DMR2M17.desktop /home/pi/Desktop
 sudo rm /home/pi/ABRIR_DMR2M17.desktop
 
 
-
+cd /home/pi/MMDVMHost
+sudo ./MMDVMDMR2M17 MMDVMDMR2M17.ini &
 
 
 cd /home/pi/DMR2M17
-sudo xterm -geometry 88x11+1272+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2M17 -e ./DMR2M17 DMR2M17.ini & 
+sudo xterm -geometry 88x11+1272+420 -bg black -fg white -fa 'Verdana' -fs 9x -T DMR2M17 -e ./DMR2M17 DMR2M17.ini
 
-cd /home/pi/MMDVMHost
-sudo ./MMDVMDMR2M17 MMDVMDMR2M17.ini
+
 
   

@@ -1,5 +1,6 @@
 #!/bin/bash
-
+sudo killall DMR2M17
+sudo killall MMDVMDMR2M17
 cd /home/pi/Desktop
 cp ABRIR_DMR2M17.desktop /home/pi
 sed -i "6c Exec=sh -c 'cd /home/pi/B108; sudo sh ejecutar_DMR2M17.sh'" /home/pi/ABRIR_DMR2M17.desktop
@@ -11,8 +12,7 @@ cp ABRIR_DMR2M17.desktop /home/pi/Desktop
 
 sudo rm /home/pi/ABRIR_DMR2M17.desktop
 
-sudo killall DMR2M17
-sudo killall MMDVMDMR2M17
+
 
 
 

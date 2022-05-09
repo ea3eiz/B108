@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo killall DMR2NXDN
-sudo killall NXDNGateway
+sudo killall -9 DMR2NXDN
+sudo killall -9 NXDNGateway
 
 SCRIPTS_version=$(awk "NR==1" /home/pi/.config/autostart/version)
 cd /home/pi/Desktop

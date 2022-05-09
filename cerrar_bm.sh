@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo killall MMDVMBM
+sudo killall -9 MMDVMBM
 SCRIPTS_version=$(awk "NR==1" /home/pi/.config/autostart/version)
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMBM.desktop /home/pi

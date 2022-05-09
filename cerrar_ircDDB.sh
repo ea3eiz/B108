@@ -1,6 +1,6 @@
 #!/bin/bash
 #cierra ircDDBGateway
-sudo killall ircddbgateway
+sudo killall -9 ircddbgateway
 #cierra remotecontrol
 sudo killall remotecontrol
 

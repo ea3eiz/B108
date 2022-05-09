@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo killall MMDVMHost
+sudo killall -9 MMDVMHost
 SCRIPTS_version=$(awk "NR==1" /home/pi/.config/autostart/version)
 cd /home/pi/Desktop
 cp Abrir_Radio.desktop /home/pi

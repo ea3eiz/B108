@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo killall NXDNGateway
+sudo killall -9 NXDNGateway
 SCRIPTS_version=$(awk "NR==1" /home/pi/.config/autostart/version)
 cd /home/pi/Desktop
 sudo cp Abrir_NXDN.desktop /home/pi

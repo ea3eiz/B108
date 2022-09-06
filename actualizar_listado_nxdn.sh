@@ -14,7 +14,7 @@ echo "\v\v"
 echo "${VERDE}"
 echo "            ********************************************************"
 echo "${BLANCO}"
-echo "                       ACTUALIZANDO FICHERO NXDNHost.txt************"
+echo "                       ACTUALIZANDO FICHERO NXDNHost.txt"
 echo "${VERDE}"
 echo "            ********************************************************"
                 
